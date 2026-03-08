@@ -1,0 +1,12 @@
+export const ROUND_DURATION = 300
+export const LOCK_BEFORE_END = 30
+export const NUM_BUCKETS = 10
+export const DEFAULT_BUCKET_SIZE = 2
+export const MIN_BET = 1
+export const MAX_BET = 100
+export const PROTOCOL_FEE_BPS = 300
+export const BET_AMOUNTS = [1, 2, 5, 10] as const
+export const GRID_VISIBLE_COLUMNS = 8
+export const PRICE_DECIMALS = 18
+export const SEED_SIGMA = 2.5
+export const USDC_DECIMALS = 6

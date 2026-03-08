@@ -76,6 +76,7 @@ const ALL_MENU_ITEMS = [
   },
   { name: "Vaults", href: "/vaults", translationKey: "common.vaults" },
   { name: "Points", href: "/points", translationKey: "tradingPoints.points" },
+  { name: "Surge", href: "/surge", translationKey: "common.surge" },
 ];
 
 const DEFAULT_ENABLED_MENUS = [
@@ -88,6 +89,7 @@ const DEFAULT_ENABLED_MENUS = [
     href: "/leaderboard",
     translationKey: "tradingLeaderboard.leaderboard",
   },
+  { name: "Surge", href: "/surge", translationKey: "common.surge" },
 ];
 
 const getCustomMenuItems = (): MainNavItem[] => {

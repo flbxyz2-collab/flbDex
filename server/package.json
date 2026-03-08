@@ -1,0 +1,14 @@
+{
+  "name": "tapgrid-server",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --env-file=../.env.local --watch index.ts",
+    "start": "bun run --env-file=../.env.local index.ts"
+  },
+  "dependencies": {
+    "viem": "^2.46.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9"
+  }
+}
